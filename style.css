@@ -1,0 +1,63 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    margin: 0px;
+}
+
+div{
+    display: flex;
+    background-color: azure;
+    margin: 0px;
+    
+}
+
+.header{
+    height: 60px;
+    line-height: 60px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.lists{
+    align-content: flex-end;
+    padding: 0;
+    display: inline-flex
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding-left: 20px;
+    display: inline-flex;
+    text-align: end
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    display: flex;
+
+}
+
+.content{
+    padding: 20px;
+    width: 70%;
+    background-color: lightgray;
+}
+
+.sidebar{
+    padding: 20px;
+    width: 30%;
+    background-color: gray;
+    color: white;
+    display: block;
+}
